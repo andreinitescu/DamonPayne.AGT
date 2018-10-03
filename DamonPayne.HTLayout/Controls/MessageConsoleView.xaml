@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="DamonPayne.HTLayout.Controls.MessageConsoleView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="600" Height="142" Loaded="UserControl_Loaded">
+		<Border Height="142" Width="597" BorderBrush="{StaticResource BorderBrush}" BorderThickness="2,2,2,2" CornerRadius="5,5,5,5" Background="{StaticResource OrangeGradient}">
+			<Canvas x:Name="MsgLayoutRoot" Height="135" Width="590" VerticalAlignment="Top">
+			<ListBox x:Name="_messages" DisplayMemberPath="Message" Height="78" Width="592" Canvas.Top="22" Clip="M0.5,5.5 C0.5,2.7385762 2.7385762,0.5 5.5,0.5 L594.5,0.5 C597.26141,0.5 599.5,2.7385762 599.5,5.5 L599.5,72.5 C599.5,75.261421 597.26141,77.5 594.5,77.5 L5.5,77.5 C2.7385762,77.5 0.5,75.261421 0.5,72.5 z" Canvas.Left="-2"/>
+			<Button x:Name="_clearBtn" Content="Clear" MaxWidth="50" MaxHeight="25" Click="_clearBtn_Click" Height="30" Width="51" Canvas.Top="104" Canvas.Left="532" Style="{StaticResource ButtonStyle}"/>
+			<TextBlock Text="System messages:" TextWrapping="Wrap" Width="216.695" Height="22" Style="{StaticResource HeaderStyle}"/>		
+			</Canvas>
+		</Border>	
+</UserControl>

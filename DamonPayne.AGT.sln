@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design", "Design", "{C36D0369-E595-4DC9-9675-62595E586872}"
+	ProjectSection(SolutionItems) = preProject
+		Design\AGT.uml = Design\AGT.uml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{8A4704DD-DF02-4055-AE10-2BDB460CD23C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{C1294EB0-B3FB-4649-B19E-900164125C05}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Microsoft.Silverlight.Testing.dll = Lib\Microsoft.Silverlight.Testing.dll
+		Lib\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.dll = Lib\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unity", "Unity", "{6184FB7C-4A40-4B7F-BA0D-926294703A5B}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Unity\Microsoft.Practices.Unity.dll = Lib\Unity\Microsoft.Practices.Unity.dll
+		Lib\Unity\Microsoft.Practices.Unity.pdb = Lib\Unity\Microsoft.Practices.Unity.pdb
+		Lib\Unity\Microsoft.Practices.Unity.xml = Lib\Unity\Microsoft.Practices.Unity.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DamonPayne.AGT.Design", "DamonPayne.AGT.Design\DamonPayne.AGT.Design.csproj", "{322B93FB-16A3-4659-90D9-A29A75467897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DamonPayne.HTLayout", "DamonPayne.HTLayout\DamonPayne.HTLayout.csproj", "{5569A7E5-CAA8-4033-9FB7-C23B39FE2CD7}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DamonPayne.HTLayoutWeb", "DamonPayne.HTLayoutWeb", "{22E03225-9C5A-4417-8A62-2756098062E7}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/DamonPayne.HTLayoutWeb"
+		Debug.AspNetCompiler.PhysicalPath = "DamonPayne.HTLayoutWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\DamonPayne.HTLayoutWeb\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/DamonPayne.HTLayoutWeb"
+		Release.AspNetCompiler.PhysicalPath = "DamonPayne.HTLayoutWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\DamonPayne.HTLayoutWeb\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1560"
+		DefaultWebSiteLanguage = "Visual C#"
+		ProjOutputReferences = "{5569A7E5-CAA8-4033-9FB7-C23B39FE2CD7}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIoC", "TestIoC\TestIoC.csproj", "{D1000BE7-D127-41F1-A19C-F542AEA912CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDesign", "TestDesign\TestDesign.csproj", "{DB2B60A7-D650-45AA-8B84-E9731477ED7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DamonPayne.AG.Core", "DamonPayne.AG.Core\DamonPayne.AG.Core.csproj", "{2E948D4A-1006-49EB-BC4F-F832B06D22CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{322B93FB-16A3-4659-90D9-A29A75467897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322B93FB-16A3-4659-90D9-A29A75467897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322B93FB-16A3-4659-90D9-A29A75467897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322B93FB-16A3-4659-90D9-A29A75467897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5569A7E5-CAA8-4033-9FB7-C23B39FE2CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5569A7E5-CAA8-4033-9FB7-C23B39FE2CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5569A7E5-CAA8-4033-9FB7-C23B39FE2CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5569A7E5-CAA8-4033-9FB7-C23B39FE2CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E03225-9C5A-4417-8A62-2756098062E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E03225-9C5A-4417-8A62-2756098062E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E03225-9C5A-4417-8A62-2756098062E7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E03225-9C5A-4417-8A62-2756098062E7}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D1000BE7-D127-41F1-A19C-F542AEA912CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1000BE7-D127-41F1-A19C-F542AEA912CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1000BE7-D127-41F1-A19C-F542AEA912CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1000BE7-D127-41F1-A19C-F542AEA912CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB2B60A7-D650-45AA-8B84-E9731477ED7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB2B60A7-D650-45AA-8B84-E9731477ED7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB2B60A7-D650-45AA-8B84-E9731477ED7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB2B60A7-D650-45AA-8B84-E9731477ED7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E948D4A-1006-49EB-BC4F-F832B06D22CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E948D4A-1006-49EB-BC4F-F832B06D22CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E948D4A-1006-49EB-BC4F-F832B06D22CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E948D4A-1006-49EB-BC4F-F832B06D22CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6184FB7C-4A40-4B7F-BA0D-926294703A5B} = {C1294EB0-B3FB-4649-B19E-900164125C05}
+		{D1000BE7-D127-41F1-A19C-F542AEA912CC} = {8A4704DD-DF02-4055-AE10-2BDB460CD23C}
+		{DB2B60A7-D650-45AA-8B84-E9731477ED7E} = {8A4704DD-DF02-4055-AE10-2BDB460CD23C}
+	EndGlobalSection
+EndGlobal

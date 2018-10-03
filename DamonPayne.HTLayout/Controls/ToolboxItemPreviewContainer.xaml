@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="DamonPayne.HTLayout.Controls.ToolboxItemPreviewContainer"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="85" Height="85" Cursor="Hand">
+    <Grid x:Name="LayoutRoot" Margin="0">
+        <Border CornerRadius="5" BorderThickness="3" BorderBrush="Black" Margin="0" Background="WhiteSmoke">
+            <Canvas x:Name="PreviewLayout">
+                <TextBlock x:Name="NameTxt" FontSize="9" Width="80" Canvas.Left="5" Canvas.Top="55" HorizontalAlignment="Center" VerticalAlignment="Bottom">Foo</TextBlock>
+            </Canvas>
+        </Border>
+    </Grid>
+</UserControl>

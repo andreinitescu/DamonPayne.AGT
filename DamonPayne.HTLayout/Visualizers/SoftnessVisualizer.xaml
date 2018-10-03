@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="DamonPayne.HTLayout.Visualizers.SoftnessVisualizer"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="175" Height="30">
+    <Grid x:Name="LayoutRoot" Background="White">
+    	<Path x:Name="Indicator" HorizontalAlignment="Left" Margin="1.75,0.75,0,3.25" Width="25" Fill="#FF121111" Stretch="Fill" Stroke="#FF000000" Data="M2.25,26.25 L2.8759367,25.604704 L26.5,1.25 L26.247396,26" RenderTransformOrigin="0.5,0.5">
+    		<Path.RenderTransform>
+    			<TransformGroup>
+    				<ScaleTransform ScaleX="1" x:Name="VisualScale"/>
+    				<SkewTransform/>
+    				<RotateTransform/>
+    				<TranslateTransform  X="0" x:Name="VisualTranslate"/>
+    			</TransformGroup>
+    		</Path.RenderTransform>
+    	</Path>
+
+    </Grid>
+</UserControl>

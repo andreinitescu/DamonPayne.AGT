@@ -1,0 +1,9 @@
+﻿<UserControl x:Class="DamonPayne.AGT.Design.Controls.DragContainer"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="80" Height="80">
+    <Canvas x:Name="LayoutRoot">
+    	<Rectangle Height="80" Width="80" RadiusX="5" RadiusY="5" Fill="#FFFFFFFF" Stroke="#FF000000" StrokeThickness="2"/>
+    	<Path Height="14.843" Width="15.75" Canvas.Left="43" Canvas.Top="48.5" Fill="#FFF0ECEC" Stretch="Fill" Stroke="#FFB1B1B1" Data="M43.5,54.5 C43.5,54.5 50.5,56 52.5,49 L58.25,53 C58.25,53 57.25,64.999992 44.25,62.499996 z"/>
+    </Canvas>
+</UserControl>

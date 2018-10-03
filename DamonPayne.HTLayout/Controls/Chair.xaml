@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="DamonPayne.HTLayout.Controls.Chair"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="193.333" Height="136">
+    <Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Name="LayoutRoot" Width="193.333" Height="136" Clip="F1 M 0,0L 193.333,0L 193.333,136L 0,136L 0,0" Background="DarkRed">
+        <Canvas x:Name="Layer_1" Width="193.333" Height="136" Canvas.Left="0" Canvas.Top="0">
+            <Path x:Name="Line" Width="13.071" Height="10.7532" Canvas.Left="24.5117" Canvas.Top="2.37501" Stretch="Fill" StrokeThickness="1.33333" StrokeLineJoin="Round" Stroke="#FF000000" Data="F1 M 25.1784,3.04167L 36.916,12.4616"/>
+            <Path x:Name="Line_0" Width="15.3333" Height="9.33334" Canvas.Left="153.333" Canvas.Top="2.66666" Stretch="Fill" StrokeThickness="1.33333" StrokeLineJoin="Round" Stroke="#FF000000" Data="F1 M 168,3.33333L 154,11.3333"/>
+            <Path x:Name="Path" Width="193.333" Height="135.333" Canvas.Left="0" Canvas.Top="0.666662" Stretch="Fill" StrokeThickness="1.33333" StrokeLineJoin="Round" Stroke="#FF000000" Data="F1 M 186,1.33333L 172.667,1.33333C 168.984,1.33333 166,4.31706 166,8L 166,108.667L 156,108.667L 156,16C 156,12.3171 153.016,9.33334 149.333,9.33334L 42.6667,9.33334C 38.985,9.33334 36,12.3171 36,16L 36,108.667L 27.3333,108.667L 27.3333,8C 27.3333,4.31706 24.3496,1.33333 20.6667,1.33333L 7.33333,1.33333C 3.65039,1.33333 0.666667,4.31706 0.666667,8L 0.666667,128C 0.666667,131.602 3.52799,134.516 7.09766,134.643C 7.97852,135.072 8.95443,135.333 10,135.333L 183.333,135.333C 184.379,135.333 185.355,135.072 186.236,134.643C 189.805,134.516 192.667,131.602 192.667,128L 192.667,8C 192.667,4.31706 189.683,1.33333 186,1.33333 Z "/>
+            <Path x:Name="Path_1" Width="121.333" Height="28" Canvas.Left="35.2474" Canvas.Top="91.8346" Stretch="Fill" StrokeThickness="1.33333" StrokeLineJoin="Round" Stroke="#FF000000" Data="F1 M 155.914,112.501C 155.914,116.184 152.93,119.168 149.247,119.168L 42.5807,119.168C 38.8991,119.168 35.9141,116.184 35.9141,112.501L 35.9141,99.168C 35.9141,95.485 38.8991,92.5013 42.5807,92.5013L 149.247,92.5013C 152.93,92.5013 155.914,95.485 155.914,99.168L 155.914,112.501 Z "/>
+        </Canvas>
+    </Canvas>
+</UserControl>

@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="DamonPayne.HTLayout.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:design="clr-namespace:DamonPayne.AGT.Design.Controls;assembly=DamonPayne.AGT.Design"
+    Width="1024" Height="895" Loaded="UserControl_Loaded">
+    <Canvas x:Name="LayoutRoot" Background="White" MouseMove="LayoutRoot_MouseMove" MouseLeftButtonDown="LayoutRoot_MouseLeftButtonDown" MouseLeftButtonUp="LayoutRoot_MouseLeftButtonUp">
+        <Grid x:Name="_regionArea" Width="1280" Height="1024" ShowGridLines="False" Background="{StaticResource GrayBGGradient}">
+            <Grid.RowDefinitions>
+				<RowDefinition Height="32"></RowDefinition>
+                <RowDefinition Height="792"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="230"></ColumnDefinition>
+                <ColumnDefinition Width="612"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+			<TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" x:Name="_titleTxt" Foreground="{StaticResource KCOrange}" FontFamily="Trebuchet MS" FontSize="18">Argentum Tela - www.damonpayne.com</TextBlock>
+            <ContentPresenter x:Name="ToolboxRegion" Grid.Row="1" Grid.Column="0" VerticalAlignment="Top">
+                <ContentPresenter.Content>
+                    <TextBlock>I am toolbox</TextBlock>
+                </ContentPresenter.Content>
+            </ContentPresenter>
+            <ContentPresenter x:Name="DesignSurfaceRegion" Grid.Row="1" Grid.Column="1">
+                <ContentPresenter.Content>
+                    <TextBlock>I am design surface</TextBlock>
+                </ContentPresenter.Content>
+            </ContentPresenter>
+            <ContentPresenter x:Name="PropertyGridRegion" Grid.Row="1" Grid.Column="2" Width="Auto" Height="Auto" VerticalAlignment="Top">
+                <ContentPresenter.Content>
+                    <design:PropertyGrid x:Name="_propGrid">
+                        <design:PropertyGrid.HeaderContent>
+                            <TextBlock Foreground="{StaticResource KCBlue}" FontSize="13">Edit Properties</TextBlock>
+                        </design:PropertyGrid.HeaderContent>
+                        <design:PropertyGrid.FooterContent>
+                            <TextBlock Foreground="{StaticResource KCBlue}" FontSize="8">AGT is great</TextBlock>
+                        </design:PropertyGrid.FooterContent>
+                    </design:PropertyGrid>
+                </ContentPresenter.Content>
+            </ContentPresenter>
+            <ContentPresenter x:Name="MessageConsoleRegion" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Left">
+                <ContentPresenter.Content>                    
+                    <TextBlock>I am the message console</TextBlock>
+                </ContentPresenter.Content>
+            </ContentPresenter>
+        </Grid>
+    </Canvas>
+</UserControl>
